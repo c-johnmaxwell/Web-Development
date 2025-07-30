@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+        John's web dev week One assignment
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my first assignment. It displays my understanding of HTML5 elements, accesibility enhancements and SEO-friendly metadata and content.">
+    <meta name="author" content="John Maxwell">
+
+  </head>
+  <body>
+    <h1>
+      Web Dev Week One assignment.
+    </h1>
+    <h2>
+      HTML5
+    </h2>
+    <p>
+      The first week was nothing less of intresting. I learnt about html. <br> This webpage is an implementation of the first weeks studies.
+    </p>
+        
+    <h3>
+      1. Headings
+    </h3>
+    <p>
+      Headings make show the hierachy of the webpage content in 6 different levels
+    </p>
+    <p>
+      Below is an example of different heading levels...
+    </p>
+    <h4>
+      Heading 4
+    </h4>
+    <h5>
+      Heading 5
+    </h5>
+    <h6>
+      Heading 6
+    </h6>
+        
+    <h3>
+      2. Paragraphs
+    </h3>
+    <p>
+      Meant to show text content of the site.
+    </p>
+        
+    <h3>
+      3. Links
+    </h3>
+    <a href="https://powerlearnprojectafrica.org/" target="_blank">
+      PLP Official Website
+    </a>
+    <p>
+      Click the above link to visit official Power Learn Project website in a new tab.
+    </p>
+
+    <h3>
+      4. Buttons
+    </h3>
+    <p>
+      Who doesn't like button. LOL!!
+    </p>        
+    <button>
+      This is a button.
+    </button>
+
+    <h3>
+      5. Ordered Lists
+    </h3>
+    <i>Below are the modules I am enrolled in.</i>
+    <ol>
+      <li>
+        Web Development
+      </li>
+      <li>
+        Python
+      </li>
+      <li>
+        Database Design & Programming with SQL
+      </li>
+      <li>
+        Startup Building for Developers
+      </li>
+      <li>
+        Software Engineering Essentials
+      </li>
+    </ol>
+    <em>
+      I am hoping to get the best out of all.
+    </em>
+
+    <h3>
+      6. Forms
+    </h3>
+    <p>
+      Below is a form that collects user information. It illustrates the use of various form elements such as text inputs, email inputs, checkboxes, and a dropdown menu.
+    </p>
+    <form action="/submit-form" method="post">
+    
+    <label for="name">
+      Name:
+    </label>
+    <br>
+    <input 
+      type="text" 
+      id="name" 
+      name="name" 
+      placeholder="John Doe"
+    required>
+    <br><br>
+
+    <label for="email">
+      Email:
+    </label>
+    <br>
+    <input 
+      type="email" 
+      id="email" 
+      name="email" 
+      placeholder="johndoe@gmail.com"
+    required>
+    <br><br>
+
+    <label for="phone">
+      Phone number:
+    </label>
+    <br>
+    <input 
+      type="text" 
+      id="phone"  
+      placeholder="0712 345 678"="phone" 
+      pattern="\d{4} \d{3} \d{3}" 
+      maxlength="10"
+    required>
+    <br><br>
+
+    <label for="Password:">
+      Password:
+    </label>
+    <br>
+    <input 
+      type="password" 
+      id="password" 
+      name="password"
+      placeholder="*********"
+    required>
+    <br><br>
+
+    <label for="message">
+      Message:
+    </label>
+    <br>
+    <textarea 
+      id="message" 
+      name="message" 
+      rows="4" 
+      cols="30"
+      placeholder="Type your message here..."
+    >
+    </textarea>
+    <br><br>
+
+    <label for="modules">
+      Select Module:
+    </label>
+    <br>
+    <select id="modules" name="module">
+      <option value="web dev">
+        Web Development
+      </option>
+      <option value="python">
+        Python
+      </option>
+      <option value="databases">
+        Database Design & Programming with SQL 
+      </option>
+      <option value="startup">
+        Startup Building for Developers
+      </option>
+      <option value="software engineering">
+        Software Engineering Essentials
+      </option>
+      <option value="other">
+        Other
+      </option>
+    </select>
+    <br><br>
+
+    <p>
+      Preferred Contact Method:
+    </p>
+    <input 
+      type="radio" 
+      id="contact-email" 
+      name="contact_method" 
+      value="email" 
+    checked>
+    <label for="contact-email">
+      Email
+    </label>
+    <br>
+    <input 
+      type="radio" 
+      id="contact-phone" 
+      name="contact_method" 
+      value="phone"
+    >
+    <label for="contact-phone">
+      Phone
+    </label>
+    <br><br>
+
+    <input 
+      type="checkbox"
+      id="subscribe"
+      name="subscribe" 
+      value="yes"
+    >
+    <label for="subscribe">
+      Subscribe to PLP newsletter
+    </label>
+    <br><br>
+    </form>
+
+    <h3>
+      7. Tables
+    </h3>
+    <p>
+      Here is a simple table showing student grades.
+    </p>
+    <table border="1">
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Web Dev
+        </th>
+        <th>
+          Python
+        </th>
+        <th>
+          Databases
+        </th>
+        <th>
+          Startup
+        </th>
+        <th>
+          Software
+        <th>
+          A.G
+        </th>
+      </tr>
+      <tr>
+        <td>
+          John Maxwell
+        </td>
+        <td>
+          90
+        </td>
+        <td>
+          85
+        </td>
+        <td>
+          78
+        </td>
+        <td> 
+          88
+        </td>
+        <td>
+          92
+        </td>
+        <td>
+          A
+        </td>
+      </tr>
+      <tr>
+        <td>
+          John Doe
+        </td>
+        <td>
+          75
+        </td>
+        <td>
+          83
+        </td>
+        <td>
+          67
+        </td>
+        <td>
+          73
+        </td>
+        <td>
+          81
+        </td>
+        <td>    
+          A-
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Jane Smith
+        </td>
+        <td>
+          87
+        </td>
+        <td>
+          76
+        </td>
+        <td>
+          56
+        </td>
+        <td>
+          72
+        </td>
+        <td>
+          69
+        </td>
+        <td>
+          B+
+        </td>
+      </tr>
+    </table>
+
+    <h3>
+      8. Images
+    </h3>
+    <p>
+      This is the  <b>most interesting</b> thing I learnt, attaching images to a website...
+    </p>
+    <img src="techbrain.jpg" alt="image">
+
+    <p>
+      There is still much more that I am yet to learn and I am looking forward to it. This is just the beginning of my journey in web development.
+    </p>
+    <p>
+      To tag along my journey, you can follow me on my social media accounts:
+    </p>
+    <ul>
+      <li>
+        <a href="https://github.com/c-johnmaxwell" target="_blank">
+          GitHub
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/john-maxwell-71baa6324/" target="_blank">
+          LinkedIn
+        </a>
+      </li>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/j._.maxx/" target="_blank">
+          Instagram
+        </a>
+      </li>
+    </ul>
+  </body>
+</html>
